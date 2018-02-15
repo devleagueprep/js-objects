@@ -64,6 +64,18 @@ console.log(dog);
   Console.log the object.
 */
 
+var kicks = {};
+
+kicks.brand = "puma";
+kicks.color = "cornflower blue";
+kicks.size = 10;
+kicks.price = 50;
+kicks.buy = function() {
+  return "Now I is a cool kid!";
+};
+
+console.log(kicks);
+
 
 /* 
 
