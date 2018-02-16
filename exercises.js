@@ -336,7 +336,13 @@ console.log(isAutomaticTransmission);
  */
 
 
+function addDriver(obj, person) {
+  obj.driver = person;
+  return obj;
+}
 
+var stockCarWithDriver = addDriver(stockCar, completePerson.name);
+console.log(stockCarWithDriver);
 
 /*
     #Final Boss
