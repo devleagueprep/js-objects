@@ -292,6 +292,15 @@ printObj({a: 1, b: 20, result: 21});
         plainBoxResult and use `console.log` to inspect your results.
  */
 
+function putInPlainBox(obj) {
+  for (var i = 0; i < 10; i++) {
+    obj.contents.push(Math.random());
+  }
+  return obj;
+}
+
+var plainBoxResult = putInPlainBox(plainBox);
+console.log(plainBoxResult);
 
 /*
 11. Detecting transmission
