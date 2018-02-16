@@ -133,6 +133,7 @@ console.log(stockCar);
  */
 
 
+
 /*
 7. Display values of objects that are inside an array
    Declare a new variable named `arrayOfObjects` and set it to be [this array of objects
