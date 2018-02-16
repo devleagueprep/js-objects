@@ -273,6 +273,14 @@ console.log(objectAddition(sumObj));
         **create more** objects and invoke your function multiple times.
  */
 
+function printObj(obj) {
+  obj.output = obj.a + " + " + obj.b + " = " + obj.result;
+  console.log(obj.output);
+}
+
+printObj(objectAddition(sumObj));
+printObj({a: 1, b: 20, result: 21});
+
 
 /*
 10. Putting stuff in `plainBox`
