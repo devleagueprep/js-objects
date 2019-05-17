@@ -349,8 +349,15 @@ printObj(sumObj);
  */
 
 function putInPlainBox(object){
-    
+    for (var i = 0; i < 10; i++){
+      var randomNum = Math.floor(Math.random()*10);
+      object.contents.push(randomNum);
+    }
+    return object;
 }
+
+var plainBoxResult = putInPlainBox(plainBox);
+console.log(plainBoxResult);
 
 /*
 11. Detecting transmission
@@ -362,6 +369,7 @@ function putInPlainBox(object){
 
     Invoke your function and pass in your stockCar object, store the result to a variable named isAutomaticTransmission and use `console.log` to inspect your results.
  */
+
 
 
 /*
