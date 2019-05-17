@@ -370,7 +370,15 @@ console.log(plainBoxResult);
     Invoke your function and pass in your stockCar object, store the result to a variable named isAutomaticTransmission and use `console.log` to inspect your results.
  */
 
+function detectingTransmission(object){
+  if (object.automaticTransmission === true){
+    console.log(true);
+  }else{
+    console.log(false);
+  }
+}
 
+detectingTransmission(stockCar);
 
 /*
 12.  Who's driving this thing?!
