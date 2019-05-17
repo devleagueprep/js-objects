@@ -300,6 +300,19 @@ printOrders(arrayOfObjects);
         to inspect your results.
 */
 
+var sumObj = {
+    a: 3,
+    b: 4,
+    result: undefined,
+}
+
+function objectAddition(obj){
+    var sum = obj.a + obj.b;
+    result = sum;
+    console.log(result);
+}
+
+objectAddition(sumObj);
 
 /*
 9. Print sum function and add as new key-value
@@ -317,6 +330,7 @@ printOrders(arrayOfObjects);
         Invoke this function and pass in your object. Further test by changing the values of the object being passed in or 
         **create more** objects and invoke your function multiple times.
  */
+
 
 
 /*
