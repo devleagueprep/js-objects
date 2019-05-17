@@ -348,6 +348,9 @@ printObj(sumObj);
         plainBoxResult and use `console.log` to inspect your results.
  */
 
+function putInPlainBox(object){
+    
+}
 
 /*
 11. Detecting transmission
